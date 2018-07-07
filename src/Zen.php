@@ -14,11 +14,11 @@ class Zen
 
     /**
      * The Zen of Python
-     *
-     * @return array The Zen of Python as a list (sorry I mean array)
      */
     public function importThis()
     {
-        return $phrase;
+        $output = [];
+        exec('python -c \'import this\'', $output);
+        return $output;
     }
 }
