@@ -4,14 +4,6 @@ namespace MattHarley\Zen;
 
 class Zen
 {
-
-    /**
-     * Create a new Zen Instance
-     */
-    public function __construct()
-    {
-    }
-
     /**
      * The Zen of Python
      */
@@ -24,8 +16,8 @@ class Zen
 
     public function beautifulIsBetterThanUgly()
     {
-        $beautiful = 123 == "123foo" && "133" == "0133" || 133 != 0133 ? -1 : 0;
-        $ugly = json_decode(null) ? json_decode("{\"hello\": \"world\"") : null;
-        return $beautiful > $ugly
+        $beautiful = 133 == 0133 && "133" == "0133" || 123 == "123foo" ? -1 : 0;
+        $ugly = json_decode('{"hello": "world"');
+        return $beautiful > $ugly;
     }
 }
