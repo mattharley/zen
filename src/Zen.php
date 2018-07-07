@@ -21,4 +21,11 @@ class Zen
         exec('python -c \'import this\'', $output);
         return $output;
     }
+
+    public function beautifulIsBetterThanUgly()
+    {
+        $beautiful = 123 == "123foo" && "133" == "0133" || 133 != 0133 ? -1 : 0;
+        $ugly = json_decode(null) ? json_decode("{\"hello\": \"world\"") : null;
+        return $beautiful > $ugly
+    }
 }
