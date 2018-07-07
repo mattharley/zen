@@ -1,25 +1,23 @@
 <?php
 
-namespace League\Skeleton;
+namespace MattHarley\Zen;
 
-class SkeletonClass
+class Zen
 {
 
     /**
-     * Create a new Skeleton Instance
+     * Create a new Zen Instance
      */
     public function __construct()
     {
     }
 
     /**
-     * Friendly welcome
+     * The Zen of Python
      *
-     * @param string $phrase Phrase to return
-     *
-     * @return string Returns the phrase passed in
+     * @return array The Zen of Python as a list (sorry I mean array)
      */
-    public function echoPhrase($phrase)
+    public function importThis()
     {
         return $phrase;
     }

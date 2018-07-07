@@ -1,12 +1,12 @@
 {
-    "name": "league/:zen",
+    "name": "mattharley/:zen",
     "description": ":The Zen of Python, implemented as PHP!",
     "keywords": [
-        "league",
         "package",
         "python",
+        "php",
         "zen",
-        "input"
+        "import this"
     ],
     "homepage": "https://gitlab.com/mattharley_git/zen",
     "license": "MIT",
