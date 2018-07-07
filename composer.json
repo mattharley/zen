@@ -1,18 +1,21 @@
 {
-    "name": "league/:package_name",
-    "description": ":package_description",
+    "name": "league/:zen",
+    "description": ":The Zen of Python, implemented as PHP!",
     "keywords": [
         "league",
-        "package"
+        "package",
+        "python",
+        "zen",
+        "input"
     ],
-    "homepage": "https://github.com/php-loep/:package_name",
+    "homepage": "https://gitlab.com/mattharley_git/zen",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author_email@example.com",
-            "homepage": "http://author-website.example.com",
-            "role": "Developer"
+            "name": "Matt Harley",
+            "email": "matt@mattharley.com",
+            "homepage": "http://mattharley.com",
+            "role": "Hacky Developer"
         }
     ],
     "require": {
@@ -23,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "League\\Skeleton\\": "src"
+            "MattHarley\\Zen\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "League\\Skeleton\\Test\\": "tests"
+            "Mattharley\\Zen\\Test\\": "tests"
         }
     },
     "extra": {
