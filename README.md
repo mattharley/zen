@@ -1,20 +1,20 @@
 # Zen of PHP
 
-
-
 ## Install
 
 Via Composer
 
 ``` bash
-$ composer require mattharley/zen
+$ composer config repositories.mattharley/zen vcs https://github.com/mattharley/zen
+$ composer require mattharley/zen:dev-master
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+php > use \MattHarley\Zen\Zen;
+php > $zen = new Zen();
+php > $zen->importThis();
 ```
 
 ## Testing
@@ -25,12 +25,14 @@ $ phpunit
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/thephpleague/:package_name/blob/master/CONTRIBUTING.md) for details.
+Please do!
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
-- [All Contributors](https://github.com/thephpleague/:package_name/contributors)
+- [Perth Django and Python Developers](http://pdpd.com.au)
+- https://www.quora.com/What-do-different-aphorisms-in-The-Zen-of-Python-mean
+- https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/
+- https://slack.engineering/taking-php-seriously-cf7a60065329
 
 ## License
 
