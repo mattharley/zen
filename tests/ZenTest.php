@@ -1,10 +1,9 @@
 <?php
 
-namespace League\Skeleton\Test;
+namespace MattHarley\Zen\Test;
 
-class ExampleTest extends \PHPUnit_Framework_TestCase
+class ZenTest extends \PHPUnit_Framework_TestCase
 {
-
 
     /**
      * Test that true does in fact equal true
