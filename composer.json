@@ -1,6 +1,6 @@
 {
-    "name": "mattharley/:zen",
-    "description": ":The Zen of Python, implemented as PHP!",
+    "name": "mattharley/zen",
+    "description": "The Zen of Python, implemented as PHP!",
     "keywords": [
         "package",
         "python",

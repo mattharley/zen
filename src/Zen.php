@@ -20,4 +20,9 @@ class Zen
         $ugly = json_decode('{"hello": "world"');
         return $beautiful > $ugly;
     }
+
+    public explicitIsBetterThanImplicit()
+    {
+        
+    }
 }
