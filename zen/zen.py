@@ -1,5 +1,4 @@
-# do not do
-from json import *
+import json
 
 class Zen:
     def beautifulIsBetterThanUgly(self):

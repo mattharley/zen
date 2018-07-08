@@ -21,7 +21,7 @@ class Zen
         return $beautiful > $ugly;
     }
 
-    public explicitIsBetterThanImplicit()
+    public function explicitIsBetterThanImplicit()
     {
         
     }
