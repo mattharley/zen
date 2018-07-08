@@ -21,8 +21,8 @@ class Zen
         return $beautiful > $ugly;
     }
 
-    public function explicitIsBetterThanImplicit()
+    public function errorsShouldNeverPassSilently($dividend, $divisor)
     {
-        
+        return @($dividend / $divisor);
     }
 }
