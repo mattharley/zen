@@ -24,5 +24,5 @@ Route::get('/second', '\App\Http\Controllers\ObviousController@second');
 Route::get('/third', '\App\Http\Controllers\ObviousController@third');
 
 Route::get('/errors', function () {
-    return (string) @(5 / 0);
+    return @(5 / 0);
 });

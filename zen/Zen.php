@@ -5,7 +5,10 @@ namespace MattHarley\Zen;
 class Zen
 {
     /**
-     * The Zen of Python
+     * The Zen of Python:
+     * use MattHarley\Zen\Zen;
+     * $myZen = new Zen();
+     * $myZen->importThis();
      */
     public function importThis()
     {
